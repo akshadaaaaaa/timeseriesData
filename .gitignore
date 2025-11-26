@@ -1,0 +1,64 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- VS Code ----
+.vscode/s
+*.code-workspace
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Environment / Virtualenv ----
+.env
+.venv
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# ---- Data files ----
+# Large datasets should not be committed
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.pickle
+*.pkl
+*.h5
+*.npy
+*.npz
+
+# Keep specific files if needed (uncomment)
+# !kaggle_data/train.csv
+# !kaggle_data/test.csv
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Checkpoints (ML models) ----
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.joblib
+*.model
+*.weights
+
+# ---- Temporary files ----
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
